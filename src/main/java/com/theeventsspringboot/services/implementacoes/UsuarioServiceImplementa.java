@@ -29,7 +29,6 @@ public class UsuarioServiceImplementa implements UsuarioService {
 
 	public void delete(Long id) {
 		this.usuarioRepository.getOne(id);
-
 	}
 
 	public Page<Usuario> findAll(int pagina, int quantidade) {

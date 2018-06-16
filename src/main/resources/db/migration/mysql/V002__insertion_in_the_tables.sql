@@ -1,9 +1,9 @@
 INSERT INTO usuario (id, nome, rg, email, senha, foto, perfil, ativo) 
-VALUES (1, "Rafael Calearo", "1091507911", "rafaelcalearo@theevents.com", "123456", "-", 'ROLE_ADMIM', "0");
+VALUES (1, "Rafael Calearo", "1091507911", "rafaelcalearo@theevents.com", "123456", "-", "ROLE_ADMIN", "0");
 INSERT INTO usuario (id, nome, rg, email, senha, foto, perfil, ativo) 
-VALUES (2, "Michel Luz", "1068475704", "michelluz@theevents.com", "54321", "-", 'ROLE_ADMIM', "0");
+VALUES (2, "Michel Luz", "1068475704", "michelluz@theevents.com", "54321", "-", "ROLE_ADMIN", "0");
 INSERT INTO usuario (id, nome, rg, email, senha, foto, perfil, ativo) 
-VALUES (3, "Silvio Santos", "1000000105", "silvinho.santos@theevents.com", "silviorico", "-", 'ROLE_COMUM', "0");
+VALUES (3, "Silvio Santos", "1000000105", "silvinho.santos@theevents.com", "silviorico", "-", "ROLE_COMUM", "0");
 
 INSERT INTO tipoevento (id, descricao_tipo_evento, usuario_id) VALUES (1, "Festa Junina", 1);
 INSERT INTO tipoevento (id, descricao_tipo_evento, usuario_id) VALUES (2, "Festa Country", 2);
